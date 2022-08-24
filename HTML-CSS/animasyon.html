@@ -1,0 +1,199 @@
+<html>
+	<head>
+		<title>Animasyon</title>
+		<style type = "text/css">
+			.navbar{
+				height: 8vh;
+				width: 100%;
+				background-color: #222222;
+				color: whitesmoke;
+				display: flex;
+				align-items: center;
+				flex-direction: row;
+				justify-content: space-around;		
+			}
+			a{
+				text-decoration: none;
+				color: whitesmoke;
+				transition: 0.7s;				
+			}
+			
+			h2{
+				cursor: pointer;
+				transition: 0.7s;
+			}
+			a:hover{
+				color: #808080;
+			}
+			
+			h2:hover{
+				color : #808080;
+			}
+			body {
+				margin: 0;
+				padding: 0;
+				background-color: #222222;
+			}
+			#container{
+				width: 80%;
+				margin:auto;
+				height:auto;	
+
+			}
+			#div1{
+				width: 200px;
+				height: 20px;
+				background-color: #000080;
+				transition: width 2s;
+				transition-timing in;
+							
+			}
+			#div1:hover{
+				width: 500px;
+
+			}
+			#div2{
+				width: 200px;
+				height: 20px;
+				background-color: #ffff00;
+				transition: width 2s;
+				transition-timing out;
+				
+			}
+			#div2:hover{
+				width: 450px;
+;
+			}
+			#div3{
+				width: 200px;
+				height: 20px;
+				background-color: #222222;
+				transition: width 1s;
+				transition-timing in;
+				transition-background-color: 3s;
+				text-align: center;
+				margin: auto;
+				float:center;
+				color: white;
+			
+			}
+			#div3:hover{
+				width: 400px;
+				height: 30px;
+				font-size: 25px;
+				background-color: #008000;
+			}
+			#div4{
+				margin: 50px;
+				width: 100px;
+				height: 100px;
+				background-color: #9999FF;
+				border-top-left-radius: 50px;
+				border-top-right-radius: 50px;
+				border-bottom-left-radius: 50px;
+				border-bottom-right-radius: 50px;
+				position: relative;
+				animation-name: Hareket;
+				animation-duration: 4s;
+				animation-delay: 1s;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;	
+				
+			}
+			#div4:hover{
+				animation-play-state: paused;
+	
+			}
+			@keyframes Hareket{
+				0%{left:0px;top:0px}
+				10%{left:300px;top:0px}
+				20%{left:45px;top:50px}
+				30%{left:125px;top:200px}
+				40%{;left:274px;top:30px}				
+				50%{;left:300px;top:300px}
+				75%{left:0px;top:300px}
+				100%{left:0px;top:0px}
+			}
+			#hareket{
+				width: 30%;
+				height: auto;
+				
+			}
+			#hareket2{
+				width: 30%;
+				height: auto;
+				
+				float: right;
+			}
+			#kare1{
+				width: 50px;
+				height: 50px;
+				color: white;
+			
+			}
+			footer{
+				margin-top: 600px;
+				color: white;
+				text-align: center;
+			}		
+			
+			
+			
+			
+			
+			
+			
+				
+		</style>
+	</head>
+	<body>		
+		<nav class = "navbar">
+			<h2>Fenerbahçe SK</h2>
+			<a href = "file:///C:/Users/batuh/OneDrive/Masaüstü/YUSUFBLOG/yusuf.html">Ana Sayfa</a>
+			<a href = "file:///C:/Users/batuh/OneDrive/Masaüstü/YUSUFBLOG/animasyon.html">Animasyon</a>
+			<a href = "file:///C:/Users/batuh/OneDrive/Masaüstü/YUSUFBLOG/merakedilenler.html">Merak Edilenler</a>
+			<a href = "file:///C:/Users/batuh/OneDrive/Masaüstü/YUSUFBLOG/iletisim.html">İletişim</a>
+			<a href = "file:///C:/Users/batuh/OneDrive/Masaüstü/YUSUFBLOG/hakkımda.html">Hakkımızda</a>
+			<a href = "file:///C:/Users/batuh/OneDrive/Masaüstü/YUSUFBLOG/kullaniciGiris.html">Kullanıcı Girişi</a>
+		</nav>
+		
+		<div id = "container">
+			<header>
+				<div id = "div1"></div>
+				<div id = "div2"></div>
+			</header>
+			<section>
+				<div id = "div3">ANİMASYONLAR</div>				
+			</section>			
+		</div>
+		
+		<section id = "hareket">
+				<div id = "div4"></div>					
+		</section>
+		
+		<section id = "hareket2">		
+			<div id = "kare1"></div>
+			<div id = "kare2"></div>
+			<div id = "kare3"></div>
+			<div id = "kare4"></div>
+			<div id = "kare5"></div>			
+		</section>
+			
+		
+			
+		<footer>Made By Yusuf Batuhan Algül</footer>
+			
+		
+		
+		
+		
+			
+			
+			
+			
+	<body>
+	
+	
+
+
+</html>
